@@ -6,11 +6,11 @@ import { UserRoutingModule } from './user-routing.module';
 
 @NgModule({
   declarations: [
-    // UserComponent
+    UserComponent
   ],
   imports: [
     CommonModule,
-    // UserRoutingModule
+    UserRoutingModule
   ]
 })
 export class UserModule { }

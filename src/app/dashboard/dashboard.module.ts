@@ -7,13 +7,13 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 
 @NgModule({
   declarations: [
-    // DashboardComponent
+    DashboardComponent
   ],
   imports: [
     CommonModule,
     NgxChartsModule,
     NgApexchartsModule,
-    // DashboardRoutingModule
+    DashboardRoutingModule
   ]
 })
 export class DashboardModule { }

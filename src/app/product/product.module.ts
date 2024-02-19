@@ -7,12 +7,12 @@ import { TooltipModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [
-    // ProductComponent
+    ProductComponent
   ],
   imports: [
     CommonModule,
     MatSlideToggleModule,
-    // ProductRoutingModule,
+    ProductRoutingModule,
     TooltipModule
   ]
 })
