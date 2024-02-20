@@ -5,7 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 // import { AppRoutingModule } from './app-routing-lazy.module';
 
 import { AppComponent } from './app.component';
+
+/** packages */
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { NgApexchartsModule } from "ng-apexcharts";
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { TooltipModule } from '@swimlane/ngx-charts';
 
 
 import { AccountComponent } from './account/account.component';
@@ -23,7 +29,11 @@ import { UserComponent } from './user/user.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgApexchartsModule,
+    NgxChartsModule,
+    MatSlideToggleModule,
+    TooltipModule
   ],
   providers: [
     provideAnimationsAsync()
